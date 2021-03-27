@@ -14,7 +14,7 @@ a {
     text-decoration: none;
     color: #fff;
 }
-.menu__list-item a:hover {
+.menu__item a:hover {
     color: red;
 }
 ul {
