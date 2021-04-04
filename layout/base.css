@@ -43,7 +43,7 @@ ul li {
 }
 .main__page-wrapper {
 
-    background: url(../img/one.jpg), url(../img/2.jpg);;
+    background: url(../img/one.jpg), url(../img/2.jpg);
     background-repeat: no-repeat, no-repeat ;
     background-position: center top, right bottom 165px;
 }

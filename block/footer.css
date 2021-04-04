@@ -1,6 +1,6 @@
 .footer__container {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    margin-top: auto;
+    
 }
 .footer-content {
     height: 137px;
@@ -14,4 +14,7 @@
 .footer__column--right {
     display: flex;
     justify-content: flex-end;
+}
+footer {
+    margin-top: auto;
 }
