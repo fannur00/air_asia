@@ -1,0 +1,17 @@
+.footer__container {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: auto;
+}
+.footer-content {
+    height: 137px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__column {
+    display: flex;
+    align-items: center;
+}
+.footer__column--right {
+    display: flex;
+    justify-content: flex-end;
+}

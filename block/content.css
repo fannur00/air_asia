@@ -1,0 +1,25 @@
+.content__name {
+    width: 513px;
+    margin-bottom: 246px;
+}
+.content__name-title {
+    font-size: 72px;
+}
+.content__name-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 27px;
+}
+.butten {
+    display: inline-block;
+    width: 168px;
+    background-color: red;
+    font-size: 14px;
+    font-weight: bold;
+    height: 55px;
+    text-align: center;
+    border-radius: 35px;
+    text-transform: uppercase;
+    padding-top: 17px;
+    margin-top: auto;
+}

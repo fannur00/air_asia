@@ -1,0 +1,39 @@
+.pager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 148px;
+}
+.pager__display,.pager__list {
+    display: flex;
+    justify-content: space-between;
+}
+.pager__display {
+    margin-right: 25px;
+}
+.pager__item--active .pager__link {
+    background-color: #fff;
+    color: red;
+}
+
+.pager__link {
+    display: flex;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+     border-radius: 50%;
+     font-weight: bold;
+     line-height: 32px;
+}
+.pager-services {
+    padding-top: 16px;
+    margin-bottom: 0;
+}
+.pager-service__item--active .pager__link {
+    background-color: red;
+    color: #fff;
+}
+
+.pager-service__link {
+    color: black;
+}

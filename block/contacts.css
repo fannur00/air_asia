@@ -1,0 +1,19 @@
+.contacts {
+    
+    font-style: normal;
+    text-align: right;
+
+ }
+ .contacts__phone {
+     font-size: 26px;
+     line-height: 1.1;
+ }
+ .contacts__info {
+     font-size: 13px;
+     text-decoration: underline;
+ }
+ .contact__desc {
+     font-size: 11px;
+     color: #9A9A9A;
+     ;
+ }
