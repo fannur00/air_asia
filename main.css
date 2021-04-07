@@ -1,4 +1,5 @@
  @import url('./layout/base.css');
+ @import url('./block/opening.css');
  @import url('./block/header.css');
  @import url('./block/logo.css');
  @import url('./block/menu.css');

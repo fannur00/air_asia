@@ -1,22 +1,20 @@
 .partners {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .partners__item {
     margin-bottom: 60px;
-    margin-left: 88px
 }
-.partners__item:nth-child(4n + 1) {
-    margin-left: 0;
+.partners__item .partners__link:nth-child(4n + 1) {
+    justify-content: flex-start;
 }
-.partners__item:nth-child(4n + 2) {
-    margin-left: 32px;
-}
+
 
 .partners__link {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 70px;
-    width: 230px;
+    min-width: 230px;
 }
