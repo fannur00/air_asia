@@ -65,6 +65,7 @@
 .history__item-text {
     margin-bottom: 29px;
     font-size: 14px;
+    line-height: 1.5;
 }
 .history__butten {
     display: inline-block;
@@ -76,5 +77,5 @@
     text-align: center;
     border-radius: 35px;
     text-transform: uppercase;
-    padding-top: 17px;
+    line-height: 55px
 }

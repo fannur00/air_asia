@@ -6,6 +6,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    
 }
 .social__item:last-child {
     margin-right: 0;
@@ -16,17 +17,139 @@
     height: 36px;
     border-radius: 50%;
     background: center center no-repeat;
+    position: relative;
+    
 }
-.social__item--telegram .social__icon {
-    background-image: url(../img/ASD.png);
-}
-.social__item--telegram .social__icon:hover {
-    background-image: url(../img/asdasdasd.png);
 
+.social__item .social__icon:hover::after {
+    opacity: 0;
 }
-.social__item--vk .social__icon {
+.social__item .social__icon:hover::before {
+    opacity: 1;
+}
+.social__item--telegram .social__icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../img/css_sprites.png') -10px -10px;
+    transition: .3s;
+}
+.social__item--telegram .social__icon::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../img/css_sprites.png') -66px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.social__item--vk .social__icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../img/css_sprites.png') -10px -122px;
+    transition: .3s;
+}
+.social__item--vk .social__icon::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../img/css_sprites.png') -66px -122px;
+    opacity: 0;
+    transition: .3s;
+}
+.social__item--f .social__icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../img/css_sprites.png') -10px -66px;
+    transition: .3s;
+}
+.social__item--f .social__icon::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../img/css_sprites.png') -66px -66px;
+    opacity: 0;
+    transition: .3s;
+}
+.social__item--in .social__icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../img/css_sprites.png') -122px -10px;
+    transition: .3s;
+}
+.social__item--in .social__icon::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../img/css_sprites.png') -122px -66px;
+    opacity: 0;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .social__item--vk .social__icon {
     background-image: url(../img/vk.png);
-}
+ } 
 .social__item--vk .social__icon:hover {
     background-image: url(../img/vks.png);
 }
@@ -42,5 +165,5 @@
     background-image: url(../img/in.png);
 }
 .social__item--in .social__icon:hover {
-    background-image: url(../img/in2.png);
-}
+    background-image: url(../img/in2.png); 
+ } */

@@ -5,15 +5,17 @@
 
  }
  .contacts__phone {
-     font-size: 26px;
-     line-height: 1.1;
+    font-size: 26px;
+    line-height: 1.34;
+    display: block;
  }
  .contacts__info {
      font-size: 13px;
      text-decoration: underline;
+     line-height: 1.53;
  }
  .contact__desc {
      font-size: 11px;
      color: #9A9A9A;
-     ;
+     
  }

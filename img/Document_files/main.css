@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+    font-size: 13px;
+    line-height: 1.6;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.dropdown__menu {
+    position: absolute;
+    widows: 160px;
+    height: 80px;
+    background-color: #EDEDED;
+    color: #1E1F20;
+    padding: 15px 19px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.dropdown__item {
+
+}

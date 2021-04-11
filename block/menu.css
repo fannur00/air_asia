@@ -1,11 +1,15 @@
+.menu__item a:hover {
+    color: red;
+    transition: .3s;
+}
 .menu {
     font-size: 14px;
     color: #fff;   
  }
- 
  .menu__item {
     display: inline-block;
     margin-right: 52px;
+
  }
  .menu__item:last-child {
      margin-right: 0;
