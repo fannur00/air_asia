@@ -1,7 +1,11 @@
 .separator {
-    background: url(../img/Rectangle.jpg) center center no-repeat;
+    background: url(../img/Rectangle.jpg) ;
     min-height: 363px;
     display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 .separator__title {
     font-size: 48px;

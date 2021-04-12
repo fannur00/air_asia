@@ -1,0 +1,38 @@
+.button {
+    display: inline-block;
+    width: 168px;
+    background-color: red;
+    font-size: 14px;
+    font-weight: bold;
+    height: 55px;
+    text-align: center;
+    border-radius: 35px;
+    text-transform: uppercase;
+    margin-top: auto;
+    line-height: 55px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button__position {
+    display: flex;
+    justify-content: flex-end;
+}
+.button__opening:hover {
+    background: #DA0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    transition: .4s;
+}
+
+.button__black {
+    background-color: #8E8E8E;
+    transition: .3s;
+    margin-right: 17px;
+}
+.button__black:hover {
+    background: #2B2B2B;
+}
+.history__button {
+    width: 135px; 
+}
+    

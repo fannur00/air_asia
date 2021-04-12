@@ -10,16 +10,3 @@
     font-size: 18px;
     margin: 35px 0
 }
-.butten {
-    display: inline-block;
-    width: 168px;
-    background-color: red;
-    font-size: 14px;
-    font-weight: bold;
-    height: 55px;
-    text-align: center;
-    border-radius: 35px;
-    text-transform: uppercase;
-    margin-top: auto;
-    line-height: 55px;
-}
