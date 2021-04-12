@@ -37,6 +37,18 @@
     margin-left: 77px;
     
 }
+.dropdown__menu::after {
+    content: "";
+    display: block;
+    width: 159px;
+    height: 15px;
+    border-bottom-color: #EDEDED;
+    position: absolute;
+    top: 100%;
+    margin-top: -79px;
+    margin-left: -18px;
+    
+}
 .dropdown__item--bold {
     font-weight: bold;
 }

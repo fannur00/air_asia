@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 113px;
 }
 .partners__item {
     margin-bottom: 60px;

@@ -28,6 +28,8 @@
     display: flex;
     justify-content: center;
 }
+
+
 @keyframes myanimation {
     from {
         opacity: 1;

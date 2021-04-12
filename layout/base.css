@@ -159,66 +159,10 @@ button:last-child {
     display: flex;
     justify-content: flex-end;
 }
-.reviews {
-    column-count: 2;
-    column-gap: 26px;
-    
-    margin-bottom: 36px;
 
-}
-.review {
-    background: #F4F5F5;
-    padding: 50px 30px;
-    margin-bottom: 17px;
-    display: inline-flex;
-    flex-direction: column;
-}
-.review__header {
-    display: flex;
-    margin-bottom: 27px;
-    align-items: center;
-
-}
-.review__photo {
-    width: 142px;
-    height: 142px;
-    display: block;
-    margin-right: 22px;
-}
 .avatar {
     width: 100%;
     border-radius: 50%;
-}
-.review__user {
-    color: #1A1B1E;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-}
-.review__user::after {
-    content: url(../img/vk-blue\ 1.png);
-    height: 36px;
-    margin-left: 5px;
-}
-
-.review__title {
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 42px;
-    margin-bottom: 13px;
-}
-.review__text {
-    color: #818181;
-    margin-bottom: 30px;
-    font-size: 16px;
-    line-height: 27px;
-    
-}
-.review__tags {
-    display: flex;
-    align-items: flex-start;
 }
 .tag {
     background: #E7E7E7;
@@ -227,11 +171,11 @@ button:last-child {
     border-radius: 35px;
     font-size: 13px;
 }
-.review__data {
-    font-size: 14px;
-    line-height: 27px;
-    font-weight: 600;
-}
 .tag--bg--green {
     background: #B9EAE4;
+}
+.butten__opening:hover {
+    background: #DA0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    transition: .4s;
 }

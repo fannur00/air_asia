@@ -19,7 +19,7 @@
 
 .header__column {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 .header__column--right {
     justify-content: flex-end;

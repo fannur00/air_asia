@@ -56,8 +56,9 @@
     height: 26px;
 }
 .history_feature-text {
-    display: inline-block;
-    color:#666;
+    display: flex;
+    align-items: flex-end;
+    color: #666;
     font-size: 16px;
     
 

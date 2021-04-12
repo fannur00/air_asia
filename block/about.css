@@ -1,5 +1,5 @@
 .about {
-    margin-bottom: 53px;
+    margin-bottom: 57px;
     display: flex;
     margin-top: 148px;
 }
@@ -17,7 +17,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 70px 81px;
+    padding: 75px 81px;
     border-radius: 5px;
     margin-left: -135px;
     margin-top: 97px;
@@ -27,7 +27,7 @@
     font-size: 36px;
     font-weight: bold;
     color:black;
-    margin-bottom: 37px;
+    margin-bottom: 42px;
 }
 .about__desc-text {
     margin-bottom: 43px;
